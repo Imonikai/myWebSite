@@ -2,7 +2,7 @@
   "name": "mywebsite",
   "private": true,
   "version": "0.0.0",
-  "homepage":"./",
+  "homepage": "./",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -12,6 +12,7 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "sass": "^1.55.0",
     "swiper": "^8.4.4"
   },
   "devDependencies": {
