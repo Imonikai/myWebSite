@@ -1,8 +1,13 @@
 .Introduce {
     text-align: center;
     vertical-align: middle;
+
+    .Icon {
+        max-width: 40%;
+    }
+
+    .swiper-pagination-bullet-active {
+        background-color: black;
+    }
 }
 
-.Icon {
-    max-width: 40%;
-}

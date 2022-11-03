@@ -23,7 +23,7 @@ const Introduce = () => {
                 Autoplay,
             ]} 
             autoplay={{
-                "delay":3000,
+                "delay":5000,
                 "disableOnInteraction": false,
             }}
             pagination={true}
@@ -31,7 +31,7 @@ const Introduce = () => {
             className="Texts"
         >
                 
-            <SwiperSlide><h1>Hello!! I'm IMO!!</h1></SwiperSlide>
+            <SwiperSlide><h1>Hello!! I'm Imonikai!!</h1></SwiperSlide>
             <SwiperSlide><h1>This website was made with React</h1></SwiperSlide>
             <SwiperSlide><h1>唐揚げたべたい</h1></SwiperSlide>
         </Swiper>
