@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "rm -rf docs && tsc && vite build --base=./ && mv dist docs",
+    "build": "rm -rf docs && tsc && vite build --base=https://imonikai.github.io/myWebSite/ && mv dist docs",
     "preview": "vite preview"
   },
   "dependencies": {
