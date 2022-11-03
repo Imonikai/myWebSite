@@ -17,11 +17,19 @@ const Introduce = () => {
 
         <img src={Image} className="Icon" />
         <Swiper 
-            modules={[Pagination, Autoplay]} 
+            modules=
+            {[
+                Pagination,
+                Autoplay,
+            ]} 
+            autoplay={{
+                "delay":3000,
+                "disableOnInteraction": false,
+            }}
             pagination={true}
             loop={true} 
-            autoplay={true} 
-            className="Texts">
+            className="Texts"
+        >
                 
             <SwiperSlide><h1>Hello!! I'm IMO!!</h1></SwiperSlide>
             <SwiperSlide><h1>This website made with React</h1></SwiperSlide>
