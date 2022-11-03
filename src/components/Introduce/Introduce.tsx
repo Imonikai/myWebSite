@@ -2,6 +2,7 @@ import React from 'react'
 import { Pagination, Autoplay } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import "./Introduce.css"
+import Image from "./me.webp"
 
 import "swiper/css";
 import "swiper/css/pagination";
@@ -14,7 +15,7 @@ const Introduce = () => {
   return (
     <div className="Introduce">
 
-        <img src="src/components/introduce/me.webp" className="Icon" />
+        <img src={Image} className="Icon" />
         <Swiper 
             modules={[Pagination, Autoplay]} 
             pagination={true}
